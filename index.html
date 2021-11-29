@@ -14,6 +14,9 @@
 <!-- Styles -->
     <link rel="stylesheet" href="css/main.css">
 
+<!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2e3e72c971.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--id="topbar"-->
@@ -47,10 +50,12 @@
       </div>
     </nav>
     <header>
-      <video width="375" height="240" autoplay>
-        <source src="videos/JohnWayne-Reel_1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-      </video>
+      <div class="carousel">
+        <video width="375" height="240" autoplay>
+          <source src="videos/JohnWayne-Reel_1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
     </header>
 
 <!-- About -->
@@ -82,37 +87,62 @@
     </div>
     </section>
 
-    <section>
+    <section class="index-row row no-gutters">
 <!-- Press -->
-      <div class="col-6 float-left">
+      <div class="press col-6 float-left p-0 img-hover-zoom">
         <a href="press.html">
           <img class="img-fluid" src="images/index-presscoverphoto.png" alt="#">
           <h2>PRESS</h2>
         </a>
       </div>
 <!-- Gallery -->
-      <div class="col-6 float-left">
+      <div class="gallery col-6 float-left p-0 img-hover-zoom">
         <a href="gallery.html">
           <img class="img-fluid" src="images/index-gallerycoverphoto.png" alt="#">
           <h2>GALLERY</h2>
         </a>
       </div>
+
+      <div class="barbwire">
+        <img class="img-fluid" src="images/barbwire.png" alt="barbed">
+      </div>
+
     </section>
 <!-- Contact -->
-      <a href="contact.html">
-        <img class="img-fluid" src="images/index-contactcoverphoto.png" alt="#">
-        <h2>CONTACT</h2>
-      </a>
+    <section class="contact">
+      <div class="img-hover-zoom">
+        <a href="contact.html">
+          <img class="img-fluid" src="images/index-contactcoverphoto.png" alt="#">
+          <h2>CONTACT</h2>
+        </a>
+      </div>
+
+      <div class="barbwire">
+        <img class="img-fluid" src="images/barbwire.png" alt="barbed">
+      </div>
+    </section>
 
 <!-- Footer -->
-    <footer>
-      <h5><a href="home.html">JOHN WAYNE</a></h5>
-      <ul>
-        <li><a href="home.html">Instagram</a></li>
-        <li><a href="about.html">Facebook</a></li>
-        <li><a href="work.html">twitter</a></li>
-      </ul>
+
+<div class="container-fluid fcolor">
+  <footer class="py-5 ">
+
+    <ul class="nav justify-content-center pb-3">
+      <li class="nav-item">
+        <a href="https://www.instagram.com/garrettdesign_/"><i class="fab fa-instagram px-3 fa-2x"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.instagram.com/garrettdesign_/"><i class="fab fa-facebook px-3 fa-2x"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.instagram.com/garrettdesign_/"><i class="fab fa-twitter px-3 fa-2x"></i></a>
+      </li>
+    </ul>
+      <p class="text-center text-muted">JOHN WAYNE</p>
+
     </footer>
+  </div>
+  
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

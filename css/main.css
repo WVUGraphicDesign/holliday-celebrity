@@ -8,31 +8,36 @@ p {
   font-family: 'Roboto Slab', serif;
 }
 
-/* line 10, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
-body {
-  background-color: black;
+/* line 16, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+footer a {
+  color: #fff;
+}
+
+/* line 20, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.fcolor {
+  background-color: #495758;
 }
 
 /* [1] The container */
-/* line 16, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 26, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .img-hover-zoom {
   overflow: hidden;
   /* [1.2] Hide the overflowing of child elements */
 }
 
 /* [2] Transition property for smooth transformation of images */
-/* line 22, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 32, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .img-hover-zoom img {
   transition: transform .5s ease;
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
-/* line 27, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 37, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .img-hover-zoom:hover img {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
-/* line 32, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 42, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .about {
   position: relative;
   text-align: center;
@@ -40,7 +45,7 @@ body {
   padding: 0;
 }
 
-/* line 37, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 47, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .about h2 {
   position: absolute;
   top: 50%;
@@ -49,28 +54,82 @@ body {
   font-size: 30px;
 }
 
-/* line 44, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 54, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .about .barbwire {
   position: absolute;
   top: -10%;
 }
 
-/* line 54, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 64, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work {
   position: relative;
 }
 
-/* line 57, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 67, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work h2 {
   position: absolute;
   top: 50%;
   left: 50%;
 }
 
-/* line 62, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 72, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work .barbwire {
   position: absolute;
   top: -7%;
+}
+
+/* line 78, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.index-row {
+  padding: 0;
+  position: relative;
+}
+
+/* line 81, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.index-row .press {
+  position: relative;
+}
+
+/* line 84, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.index-row .press h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* line 91, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.index-row .gallery {
+  position: relative;
+}
+
+/* line 94, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.index-row .gallery h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* line 100, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.index-row .barbwire {
+  position: absolute;
+  top: -10%;
+}
+
+/* line 106, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.contact {
+  position: relative;
+}
+
+/* line 109, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.contact h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* line 115, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.contact .barbwire {
+  position: absolute;
+  top: -10%;
 }
 
 /*# sourceMappingURL=main.css.map */
