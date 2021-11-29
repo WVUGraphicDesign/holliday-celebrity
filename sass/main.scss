@@ -1,14 +1,41 @@
+//Variables//
+
+$poppins: 'Poppins', sans-serif;
+$robotoslab: 'Roboto Slab', serif;
+$orange: #B85721;
+$green: #495758;
+
+$spacer: 20px;
+
+
 h2 {
-font-family: 'Poppins', sans-serif;
+font-family: $poppins
 }
 p{
-font-family: 'Roboto Slab', serif;
+font-family: $robotoslab
 }
 
 
 
 body {
   // background-color: black;
+}
+
+// NAV
+nav {
+  font-family: $poppins;
+  .navbar-brand {
+    font-size: 40px;
+    color: $orange !important;
+  }
+  // .nav-item {
+  //   font-size: 25px;
+  //   color: black !important;
+  // }
+}
+
+.bg-dark {
+ background-color: none !important;
 }
 
 // FOOTER
@@ -18,7 +45,7 @@ footer {
   }
 }
 .fcolor {
-  background-color: #495758;
+  background-color: $green;
   }
 
 // Img Hover Zoom
@@ -48,6 +75,7 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     color: #fff;
     font-size: 30px;
   }
@@ -68,6 +96,8 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
   }
   .barbwire {
     position: absolute;
@@ -85,6 +115,8 @@ footer {
       position: absolute;
       top: 50%;
       left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
     }
   }
 
@@ -95,6 +127,8 @@ footer {
       position: absolute;
       top: 50%;
       left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
     }
   }
   .barbwire {
@@ -110,6 +144,8 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
   }
 
   .barbwire {
@@ -122,22 +158,36 @@ footer {
 // WORK page
 .work-header {
   position: relative;
+  height: 350px;
+  overflow-y: hidden;
 
   h1 {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: $poppins;
+    color: #fff;
+  }
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
 .movies {
   position: relative;
   // padding-top: 50px;
-  padding-left: 30px;
+  // padding-left: 30px;
+  padding-bottom: 5em;
 
   h2 {
     position: absolute;
     font-size: 4rem;
+    font-family: $poppins;
+    color: $orange;
   }
 
   img {
@@ -146,12 +196,46 @@ footer {
 
   h3 {
     padding-top: 50px;
+    font-family: $poppins;
+    color: $green;
+  }
+
+  p {
+    font-family: $robotoslab;
   }
 }
 
+// MOVIE INFO
+.movieinfo-header {
+  h1 {
+    font-family: $poppins;
+    color: $green;
+  }
+  h2 {
+    font-family: $poppins;
+    color: $orange;
+  }
+}
+
+
 //GALLERY
+.gallery-header {
+  h1 {
+    font-family: $poppins;
+    color: $green;
+  }
+  p {
+    font-family: $robotoslab;
+  }
+}
 
 // CONTACT
+.contact-header {
+  h1 {
+    font-family: $poppins;
+    color: $green;
+  }
+}
 input[type=text] {
   width: 100%;
   padding: 12px;
