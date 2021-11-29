@@ -117,3 +117,60 @@ footer {
     top: -10%;
   }
 }
+
+
+// WORK page
+.work-header {
+  position: relative;
+
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}
+
+.movies {
+  position: relative;
+  // padding-top: 50px;
+  padding-left: 30px;
+
+  h2 {
+    position: absolute;
+    font-size: 4rem;
+  }
+
+  img {
+    padding-top: 50px;
+  }
+
+  h3 {
+    padding-top: 50px;
+  }
+}
+
+//GALLERY
+
+// CONTACT
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #BABABA;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+
+}
+
+ input[type=submit]:hover {
+   // background-color: $orange;
+
+ }
