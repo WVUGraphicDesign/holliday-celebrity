@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../sass/main.scss"
+	],
+	"sourcesContent": [
+		"h2 {\nfont-family: 'Poppins', sans-serif;\n}\np{\nfont-family: 'Roboto Slab', serif;\n}\n\n\n\nbody {\n  background-color: black;\n}\n\n// Img Hover Zoom\n/* [1] The container */\n.img-hover-zoom {\n  // height: 300px; /* [1.1] Set it as per your need */\n  overflow: hidden; /* [1.2] Hide the overflowing of child elements */\n}\n\n/* [2] Transition property for smooth transformation of images */\n.img-hover-zoom img {\n  transition: transform .5s ease;\n}\n\n/* [3] Finally, transforming the image when container gets hovered */\n.img-hover-zoom:hover img {\n  transform: scale(1.5);\n}\n\n// ABOUT\n.about {\n  position: relative;\n  text-align: center;\n  margin: 0 auto;\n  padding: 0;\n  h2 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    color: #fff;\n    font-size: 30px;\n  }\n  .barbwire {\n    position: absolute;\n    top: -10%;\n  }\n}\n// .barbwire {\n//   position: absolute;\n//   top: -10%;\n// }\n// WORK\n.work {\n  position: relative;\n\n  h2 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n  }\n  .barbwire {\n    position: absolute;\n    top: -7%;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,EAAE,CAAC;EACH,WAAW,EAAE,qBAAqB;CACjC;;;AACD,AAAA,CAAC,CAAA;EACD,WAAW,EAAE,oBAAoB;CAChC;;;AAID,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,KAAK;CACxB;;AAGD,uBAAuB;;AACvB,AAAA,eAAe,CAAC;EAEd,QAAQ,EAAE,MAAM;EAAE,kDAAkD;CACrE;;AAED,iEAAiE;;AACjE,AAAA,eAAe,CAAC,GAAG,CAAC;EAClB,UAAU,EAAE,kBAAkB;CAC/B;;AAED,qEAAqE;;AACrE,AAAA,eAAe,AAAA,MAAM,CAAC,GAAG,CAAC;EACxB,SAAS,EAAE,UAAU;CACtB;;;AAGD,AAAA,MAAM,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,CAAC;CAYX;;;AAhBD,AAKE,MALI,CAKJ,EAAE,CAAC;EACD,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;EACT,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;CAChB;;;AAXH,AAYE,MAZI,CAYJ,SAAS,CAAC;EACR,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;CACV;;;AAOH,AAAA,KAAK,CAAC;EACJ,QAAQ,EAAE,QAAQ;CAWnB;;;AAZD,AAGE,KAHG,CAGH,EAAE,CAAC;EACD,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;CACV;;;AAPH,AAQE,KARG,CAQH,SAAS,CAAC;EACR,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;CACT"
+}

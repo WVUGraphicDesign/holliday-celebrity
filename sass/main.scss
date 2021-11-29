@@ -1,0 +1,66 @@
+h2 {
+font-family: 'Poppins', sans-serif;
+}
+p{
+font-family: 'Roboto Slab', serif;
+}
+
+
+
+body {
+  background-color: black;
+}
+
+// Img Hover Zoom
+/* [1] The container */
+.img-hover-zoom {
+  // height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+// ABOUT
+.about {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 30px;
+  }
+  .barbwire {
+    position: absolute;
+    top: -10%;
+  }
+}
+// .barbwire {
+//   position: absolute;
+//   top: -10%;
+// }
+// WORK
+.work {
+  position: relative;
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .barbwire {
+    position: absolute;
+    top: -7%;
+  }
+}

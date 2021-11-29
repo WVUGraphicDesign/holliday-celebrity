@@ -1,0 +1,76 @@
+/* line 1, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 4, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* line 10, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+body {
+  background-color: black;
+}
+
+/* [1] The container */
+/* line 16, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.img-hover-zoom {
+  overflow: hidden;
+  /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+/* line 22, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+/* line 27, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+/* line 32, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.about {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 37, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.about h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-size: 30px;
+}
+
+/* line 44, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.about .barbwire {
+  position: absolute;
+  top: -10%;
+}
+
+/* line 54, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.work {
+  position: relative;
+}
+
+/* line 57, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.work h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* line 62, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.work .barbwire {
+  position: absolute;
+  top: -7%;
+}
+
+/*# sourceMappingURL=main.css.map */

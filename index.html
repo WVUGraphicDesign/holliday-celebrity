@@ -1,68 +1,124 @@
 <!DOCTYPE html>
-<html lan="en" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,intital-scale=1">
     <title>John Wayne</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<!-- Fonts -->
+    <!-- Poppins Extrabold and Roboto Slab Regular -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+<!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+
   </head>
   <body>
-    <nav>
-      <p><a href="index.html">JOHN WAYNE</a></p>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="work.html">WORK</a></li>
-        <li><a href="press.html">PRESS</a></li>
-        <li><a href="gallery.html">GALLERY</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--id="topbar"-->
+      <div class="container">
+        <a class="navbar-brand" href="index.html">JOHN WAYNE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">PRESS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <header>
-      <video width="375" height="240" controls>
+      <video width="375" height="240" autoplay>
         <source src="videos/JohnWayne-Reel_1.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
     </header>
 
+<!-- About -->
     <section>
-      <a href="about.html">
-        <img src="images/index-aboutcoverphoto.png" alt="#">
-        <h2>ABOUT</h2>
-      </a>
+      <div class="about text-center">
+        <a href="about.html">
+          <div class="img-hover-zoom">
+            <img class="img-fluid" src="images/index-aboutcoverphoto.png" alt="#">
+          </div>
+          <h2>ABOUT</h2>
+        </a>
+        <div class="barbwire">
+          <img class="img-fluid" src="images/barbwire.png" alt="barbed">
+        </div>
+      </div>
 
-      <a href="work.html">
-        <img src="images/index-workcoverphoto.png" alt="#">
-        <h2>WORK</h2>
-      </a>
 
-      <a href="press.html">
-        <img src="images/index-presscoverphoto.png" alt="#">
-        <h2>PRESS</h2>
-      </a>
-
-      <a href="gallery.html">
-        <img src="images/index-gallerycoverphoto.png" alt="#">
-        <h2>GALLERY</h2>
-      </a>
-
-      <a href="contact.html">
-        <img src="images/index-contactcoverphoto.png" alt="#">
-        <h2>CONTACT</h2>
-      </a>
+<!-- Work -->
+      <div class="work">
+        <a href="work.html">
+          <div class="img-hover-zoom">
+            <img class="img-fluid" src="images/index-workcoverphoto.png" alt="#">
+          </div>
+          <h2>WORK</h2>
+        </a>
+        <div class="barbwire">
+          <img class="img-fluid" src="images/barbwire.png" alt="barbed">
+        </div>
+    </div>
     </section>
 
+    <section>
+<!-- Press -->
+      <div class="col-6 float-left">
+        <a href="press.html">
+          <img class="img-fluid" src="images/index-presscoverphoto.png" alt="#">
+          <h2>PRESS</h2>
+        </a>
+      </div>
+<!-- Gallery -->
+      <div class="col-6 float-left">
+        <a href="gallery.html">
+          <img class="img-fluid" src="images/index-gallerycoverphoto.png" alt="#">
+          <h2>GALLERY</h2>
+        </a>
+      </div>
+    </section>
+<!-- Contact -->
+      <a href="contact.html">
+        <img class="img-fluid" src="images/index-contactcoverphoto.png" alt="#">
+        <h2>CONTACT</h2>
+      </a>
+
+<!-- Footer -->
     <footer>
-      <p><a href="home.html">JOHN WAYNE</a></p>
+      <h5><a href="home.html">JOHN WAYNE</a></h5>
       <ul>
-        <li><a href="home.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="work.html">WORK</a></li>
-        <li><a href="press.html">PRESS</a></li>
-        <li><a href="gallery.html">GALLERY</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="home.html">Instagram</a></li>
+        <li><a href="about.html">Facebook</a></li>
+        <li><a href="work.html">twitter</a></li>
       </ul>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
   </body>
 
 
