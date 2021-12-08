@@ -93,7 +93,73 @@ footer a {
   z-index: 100;
 }
 
-/* line 103, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 104, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.achievements {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  background: #495758;
+}
+
+/* line 113, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.achievements h2 {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+}
+
+/* line 121, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.achievements p {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+/* line 129, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.achievements .icons {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+}
+
+/* line 141, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.achievements .barbwire {
+  position: absolute;
+  top: -3%;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 141, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+  .achievements .barbwire {
+    top: -6%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 141, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+  .achievements .barbwire {
+    top: -44px;
+  }
+}
+
+@media screen and (min-width: 1420px) {
+  /* line 141, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+  .achievements .barbwire {
+    top: -70px;
+  }
+}
+
+/* line 183, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .about {
   position: relative;
   text-align: center;
@@ -101,7 +167,7 @@ footer a {
   padding: 0;
 }
 
-/* line 108, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 188, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .about h2 {
   position: absolute;
   top: 50%;
@@ -111,18 +177,18 @@ footer a {
   font-size: 30px;
 }
 
-/* line 116, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 196, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .about .barbwire {
   position: absolute;
   top: -10%;
 }
 
-/* line 127, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 204, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work {
   position: relative;
 }
 
-/* line 130, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 207, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work h2 {
   position: absolute;
   top: 50%;
@@ -131,24 +197,54 @@ footer a {
   color: #fff;
 }
 
-/* line 137, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 214, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work .barbwire {
   position: absolute;
   top: -7%;
 }
 
-/* line 143, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 222, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.quote {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 227, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.quote p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 235, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+  .quote p {
+    font-size: 25px;
+  }
+}
+
+/* line 239, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.quote .barbwire {
+  position: absolute;
+  top: -10%;
+}
+
+/* line 246, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .index-row {
   padding: 0;
   position: relative;
 }
 
-/* line 146, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 249, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .index-row .press {
   position: relative;
 }
 
-/* line 149, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 252, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .index-row .press h2 {
   position: absolute;
   top: 50%;
@@ -157,12 +253,12 @@ footer a {
   color: #fff;
 }
 
-/* line 158, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 261, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .index-row .gallery {
   position: relative;
 }
 
-/* line 161, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 264, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .index-row .gallery h2 {
   position: absolute;
   top: 50%;
@@ -171,18 +267,18 @@ footer a {
   color: #fff;
 }
 
-/* line 169, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 272, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .index-row .barbwire {
   position: absolute;
   top: -10%;
 }
 
-/* line 175, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 278, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .contact {
   position: relative;
 }
 
-/* line 178, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 281, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .contact h2 {
   position: absolute;
   top: 50%;
@@ -191,20 +287,20 @@ footer a {
   color: #fff;
 }
 
-/* line 186, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 289, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .contact .barbwire {
   position: absolute;
   top: -10%;
 }
 
-/* line 194, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 305, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work-header {
   position: relative;
   height: 350px;
   overflow-y: hidden;
 }
 
-/* line 199, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 310, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work-header h1 {
   position: absolute;
   top: 50%;
@@ -214,7 +310,7 @@ footer a {
   color: #fff;
 }
 
-/* line 207, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 318, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .work-header img {
   position: absolute;
   width: 100%;
@@ -222,13 +318,13 @@ footer a {
   object-fit: cover;
 }
 
-/* line 215, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 326, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .movies {
   position: relative;
   padding-bottom: 5em;
 }
 
-/* line 221, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 332, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .movies h2 {
   position: absolute;
   font-size: 4rem;
@@ -236,58 +332,68 @@ footer a {
   color: #B85721;
 }
 
-/* line 228, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 339, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .movies img {
   padding-top: 50px;
 }
 
-/* line 232, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 343, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .movies h3 {
   padding-top: 50px;
   font-family: "Poppins", sans-serif;
   color: #495758;
 }
 
-/* line 238, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 349, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .movies p {
   font-family: "Roboto Slab", serif;
 }
 
-/* line 245, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 356, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .movieinfo-header h1 {
   font-family: "Poppins", sans-serif;
   color: #495758;
 }
 
-/* line 249, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 360, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .movieinfo-header h2 {
   font-family: "Poppins", sans-serif;
   color: #B85721;
 }
 
-/* line 256, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 367, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .movierole p {
   color: #B85721;
 }
 
-/* line 264, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 377, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .gallery-header h1 {
   font-family: "Poppins", sans-serif;
   color: #495758;
 }
 
-/* line 268, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 381, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .gallery-header p {
   font-family: "Roboto Slab", serif;
 }
 
-/* line 275, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 386, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.column {
+  padding-bottom: 10em;
+}
+
+/* line 388, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.column img {
+  margin-top: 12px;
+}
+
+/* line 395, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 .contact-header h1 {
   font-family: "Poppins", sans-serif;
   color: #495758;
 }
 
-/* line 280, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 400, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 input[type=text] {
   width: 100%;
   padding: 12px;
@@ -297,13 +403,26 @@ input[type=text] {
   margin-bottom: 20px;
 }
 
-/* line 289, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+/* line 409, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
 input[type=submit] {
   background-color: #000000;
   color: #fff;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
+}
+
+/* line 423, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.agent-info {
+  color: #495758;
+  padding-top: 5em;
+  padding-bottom: 10em;
+}
+
+/* line 428, ../../../../../Users/garrettholliday/Desktop/ART 324/project 3/holliday-celebrity/sass/main.scss */
+.agent-info h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=main.css.map */
