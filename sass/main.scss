@@ -48,6 +48,7 @@ nav {
 
 // FOOTER
 footer {
+
   a {
     color: #fff;
   }
@@ -94,10 +95,7 @@ footer {
      margin: auto;
      text-align: center;
    }
-   @media screen and(min-width: 556px){
-     width: 550px;
-     height: 300px;
-   }
+
  }
 // .v-header {
 //   height: 100vh;
@@ -331,12 +329,11 @@ footer {
 
 // WORK page
 
-// .imagebackground {
-//   position: absolute;
-//   index: -100;
-//   opacity: 30%;
-//   max-height: 100vh;
-// }
+.imagebackground {
+  position: absolute;
+  index: -100;
+  max-height: 100vh;
+}
 
 .work-header {
   position: relative;
@@ -407,14 +404,15 @@ footer {
       width: 692px;
       height: 416px;
     }
-    @media screen and(min-width: 992px){
-      width: 1104px;
-      height: 502px;
-    }
+    // @media screen and(min-width: 992px){
+    //   width: 1104px;
+    //   height: 502px;
+    // }
   }
 }
 
-.movieinfo-header {
+.movie-info {
+  padding-left: 10px;
   h1 {
     font-family: $poppins;
     color: $green;
@@ -422,6 +420,10 @@ footer {
   h2 {
     font-family: $poppins;
     color: $orange;
+  }
+  p {
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -492,4 +494,40 @@ input[type=submit] {
     font-size: 1.5em;
 
   }
+}
+
+//ABOUT PAGE
+
+.apprence {
+  color: $orange;
+}
+
+//PRESS
+.press-article {
+  h3 {
+    font-family: $poppins;
+    color: $orange;
+    margin-top: 15px;
+  }
+}
+
+.button-sm{
+  background: black;
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  margin: 4px 2px;
+
+ a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+ }
+ p {
+   margin: 0;
+ }
+}
+
+.button-sm:hover {
+  background-color: $orange ;
 }
