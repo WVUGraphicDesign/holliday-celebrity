@@ -94,8 +94,9 @@ footer {
      margin: auto;
      text-align: center;
    }
-   @media screen and(max-width: 556px){
+   @media screen and(min-width: 556px){
      width: 550px;
+     height: 300px;
    }
  }
 // .v-header {
